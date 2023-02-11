@@ -1,22 +1,19 @@
 node_modules
 .DS_Store
 .idea
-!.vscode
 
-lib
 dist
 dist-ssr
-docs
 coverage
 test-results
 .pnpm-store
 tsconfig.tsbuildinfo
 
-sitemap.xml
-
-.env
+.env.prod
 *.local
 *.cache
 *error.log
 *debug.log
-*.map
+*.conf
+
+scripts/update.sh
